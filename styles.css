@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(rgba(188, 233, 190, 0.1), rgba(217, 246, 209, 0.5)),url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+   
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.heading-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.headshot img {
+    border-radius: 120px;
+}
+
+.bio {
+    display: block;
+}
+
+.My-Projects img {
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
