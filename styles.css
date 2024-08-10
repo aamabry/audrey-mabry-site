@@ -4,54 +4,268 @@ body {
     background-size: cover;
     background-attachment:fixed ;
     font-family: "Quicksand", sans-serif;
-    
 }
 
-h1 {
-    font-size: 60px;
+main {
+    color: #0f350b;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 70px auto;
+    max-width: 80%;
     text-align: center;
-   
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
 }
 
-h2 {
-    font-size: 40px;
-    text-align: center;
+main h1 {
+    font-size: 50px;
 }
 
-h4 {
+main h2 {
     font-size: 30px;
-    text-align: center;
 }
 
-.nav-links {
-    margin: 20px;
-    text-align: center;
+main h4 {
     font-size: 20px;
 }
 
-.heading-logo {
-    display: block;
+.header {
     margin: 0 auto;
+    max-width: 80%;
 }
 
-.headshot img {
-    border: 5px solid rgba(241, 157, 157, 0.5);
-    border-radius: 130px;
+.headshot{
+    border: 1px solid rgba(241, 157, 157, 0.5);
+    border-radius: 180px;
     opacity: .85;
+    margin: 40px auto;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.logo {
+    opacity: .85;
+    margin: -150px auto;
 }
 
 .bio {
     display: block;
 }
 
+.My-Projects {
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+.My-Projects a {
+    color: #000000;
+}
+
+
+.My-Projects h3 {
+    font-size: 60px;
+    color: #78170D;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 80px 220px 10px;
+    max-width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+
+}
+
 .My-Projects img {
     border-radius: 20px;
-    display: block;
-    margin: 0 auto;
+}
+
+
+.dictionary {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0f350b;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 20px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.weather {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0f350b;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 20px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.travel {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0f350b;
+      
+        text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+        margin: 20px;
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+        border-radius: 60px;
+        box-shadow:
+              inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+              0 0 0 1px rgba(241, 157, 157, 0.5),
+              0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.clock {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0f350b;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 20px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.poem {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0f350b;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 20px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.bio-container {
+    color: #78170D;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 10px auto;
+    max-width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius:60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.bio-header h3{
+    font-size: 60px;
+    color: #78170D;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 80px 220px 40px;
+    max-width: 60%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.bio-container p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f350b;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 5px auto;
+    max-width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.contact {
+    color: #0f350b;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
+    margin: 90px auto;
+    max-width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.contact h1 {
+    font-size: 60px;
+}
+
+.icons {
+    font-size: 40px;
+}
+
+.icons a{
+    color:  rgb(173, 25, 25);
+}
+
+.nav-links {
+    margin: 20px auto;
+    max-width: 50%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow:
+          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
+          0 0 0 1px rgba(241, 157, 157, 0.5),
+          0.3em 0.3em 1em rgb(200 0 0 / 50%);
+}
+
+.nav-links a {
+    color:#78170D;
+    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
 }
 
 footer {
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 600;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 20px;
 }
 
+footer a {
+    color:#78170D;
+}
