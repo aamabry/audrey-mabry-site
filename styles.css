@@ -233,12 +233,20 @@ main h4 {
     font-size: 60px;
 }
 
+.contact h2 {
+    font-size: 40px;
+}
+
+.contact a{
+    color: #0f350b;
+}
+
 .icons {
     font-size: 40px;
 }
 
 .icons a{
-    color:  rgb(173, 25, 25);
+    color:  rgb(16, 43, 11);
 }
 
 .nav-links {
@@ -255,7 +263,7 @@ main h4 {
 }
 
 .nav-links a {
-    color:#78170D;
+    color: #0f350b;
     text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
 }
 
