@@ -1,8 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(14, 20, 14, 0.1), rgba(241, 157, 157, 0.5)),url(./images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed ;
+    background: linear-gradient(to right, rgb(238, 156, 167), rgb(255, 221, 225));
     font-family: "Quicksand", sans-serif;
 }
 
