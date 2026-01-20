@@ -1,6 +1,7 @@
 body {
-    background: linear-gradient(to right, rgb(224, 235, 227), rgb(177, 227, 205));
+   background-image: url("images/IMG_4672.JPG");
     font-family: "Quicksand", sans-serif;
+   
 }
 
 main {
