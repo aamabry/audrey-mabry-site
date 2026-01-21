@@ -5,47 +5,64 @@ body {
 }
 
 .nav-links {
-    text-align: right;
+    text-align: end;
+     word-spacing: 20px;
+     margin-top: 5px;
 }
 
 .nav-links a {
-    color: #000000;
+    color: rgb(0, 0, 0, 0.5);
     font-size: 20px;
 }
 
+.nav-links a:hover {
+    color: #096526;
+    text-decoration: underline;
+}
+
 main {
-    color: #000000;
-    text-align: left;
+    color: rgb(0, 0, 0, 0.7);
+    text-align: start;
 }
 
 main h1 {
-    font-size: 125px;
+    margin-block-start: 300px;
+    font-size: 110px;
+    text-align: center;
+    letter-spacing: 20px;
 }
 
 main h2 {
     font-size: 40px;
+    text-align: center;
+     word-spacing: 10px;
 }
 
-main h4 {
+main h3 {
     font-size: 25px;
+    text-align: center;
+     word-spacing: 10px;
 }
 
 footer {
-    color: #000000;
-    margin: 10px auto;
+    color:  rgb(0, 0, 0, 0.5);
     font-size: 15px;
     text-align: center;
+    margin-block-start: 325px;
+     word-spacing: 8px;
 }
 
 footer a {
-    color:#075e23;
+    color:rgb(40, 39, 39, 0.7);
 }
 
-
+footer a:hover {
+    text-decoration: underline;
+    color: #096526;
+}
 
 .headshot{
-    border: 1px solid rgba(109, 107, 107, 0.334);
-    border-radius: 24px;
+   
     opacity: .85;
     margin: 30px auto;
  
@@ -56,8 +73,32 @@ footer a {
     margin: -150px auto;
 }
 
-.bio {
-    display: block;
+
+.Portfolio {
+
+}
+
+.hover figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover figure:hover img{
+    -webkit-trasnform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.Portfolio h1 {
+    font-size: 30px;
+}
+
+.Portfolio h2 {
+    font-size: 20px;
+}
+.Portfolio p {
+    font-size: 15px;
 }
 
 .bio-container {
@@ -106,117 +147,6 @@ footer a {
 }
 
 
-.My-Projects {
-    margin: 10px auto;
-    max-inline-size: 80%;
-}
-
-.My-Projects a {
-    color: #000000;
-}
-
-
-.My-Projects h3 {
-    font-size: 60px;
-    color: #78170D;
-    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
-    margin: 80px 220px 10px;
-    max-inline-size: 80%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 60px;
-    box-shadow:
-          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
-          0 0 0 1px rgba(241, 157, 157, 0.5),
-          0.3em 0.3em 1em rgb(200 0 0 / 50%);
-
-}
-
-.My-Projects img {
-    border-radius: 20px;
-}
-
-
-.dictionary {
-    font-size: 20px;
-    font-weight: 900;
-    color: #0f350b;
-    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
-    margin: 20px;
-    max-inline-size: 100%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 60px;
-    box-shadow:
-          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
-          0 0 0 1px rgba(241, 157, 157, 0.5),
-          0.3em 0.3em 1em rgb(200 0 0 / 50%);
-}
-
-.weather {
-    font-size: 20px;
-    font-weight: 900;
-    color: #0f350b;
-    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
-    margin: 20px;
-    max-inline-size: 100%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 60px;
-    box-shadow:
-          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
-          0 0 0 1px rgba(241, 157, 157, 0.5),
-          0.3em 0.3em 1em rgb(200 0 0 / 50%);
-}
-
-.travel {
-    font-size: 20px;
-    font-weight: 900;
-    color: #0f350b;
-      
-        text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
-        margin: 20px;
-        max-inline-size: 100%;
-        text-align: center;
-        padding: 20px;
-        border-radius: 60px;
-        box-shadow:
-              inset 0 -3em 3em rgba(6, 38, 6, 0.3),
-              0 0 0 1px rgba(241, 157, 157, 0.5),
-              0.3em 0.3em 1em rgb(200 0 0 / 50%);
-}
-
-.clock {
-    font-size: 20px;
-    font-weight: 900;
-    color: #0f350b;
-    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
-    margin: 20px;
-    max-inline-size: 100%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 60px;
-    box-shadow:
-          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
-          0 0 0 1px rgba(241, 157, 157, 0.5),
-          0.3em 0.3em 1em rgb(200 0 0 / 50%);
-}
-
-.poem {
-    font-size: 20px;
-    font-weight: 900;
-    color: #0f350b;
-    text-shadow: 1px 1px 2px rgb(221, 115, 115), 0 0 1em rgb(240, 15, 22), 0 0 0.2em rgb(44, 250, 58);
-    margin: 20px;
-    max-inline-size: 100%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 60px;
-    box-shadow:
-          inset 0 -3em 3em rgba(6, 38, 6, 0.3),
-          0 0 0 1px rgba(241, 157, 157, 0.5),
-          0.3em 0.3em 1em rgb(200 0 0 / 50%);
-}
 
 .contact {
     color: #0f350b;
