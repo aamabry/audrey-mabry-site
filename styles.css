@@ -44,23 +44,6 @@ main h3 {
      word-spacing: 10px;
 }
 
-footer {
-    color:  rgb(0, 0, 0, 0.5);
-    font-size: 15px;
-    text-align: center;
-    margin-block-start: 325px;
-     word-spacing: 8px;
-}
-
-footer a {
-    color:rgb(40, 39, 39, 0.7);
-}
-
-footer a:hover {
-    text-decoration: underline;
-    color: #096526;
-}
-
 .headshot{
    
     opacity: .85;
@@ -71,23 +54,6 @@ footer a:hover {
 .logo {
     opacity: .85;
     margin: -150px auto;
-}
-
-
-.Portfolio {
-
-}
-
-.hover figure img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.hover figure:hover img{
-    -webkit-trasnform: scale(1.3);
-    transform: scale(1.3);
 }
 
 .Portfolio h1 {
@@ -180,6 +146,23 @@ footer a:hover {
 
 .icons a{
     color:  rgb(16, 43, 11);
+}
+
+footer {
+    color:  rgb(0, 0, 0, 0.5);
+    font-size: 15px;
+    text-align: center;
+    margin-block-start: 325px;
+     word-spacing: 8px;
+}
+
+footer a {
+    color:rgb(40, 39, 39, 0.7);
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #096526;
 }
 
 @media (max-width: 900px) {
