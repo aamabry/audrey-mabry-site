@@ -13,22 +13,37 @@
 </head>
 <body>
     <div class="container">
-                <div class="nav-links">
+        <div class="nav-links">
             <a href="./index.html" target="_blank">Home</a>
-            <a href="./About.html" target="_blank">About Me</a>
             <a href="./Projects.html" target="_blank">Projects</a>
-            <a href="./Contact.html">Contact Me</a>
+            <a href="./About.html" target="_blank">Bio</a>
+            <a href="./Contact.html">Contact</a>
         </div>
         <div class="container contact">
-            <h1>Let's work together!</h1>
-            <h2>Email: audrey.mabry90@gmail.com  
-                <a href="mailto:audrey.mabry90@gmail.com">
-                    <i class="fa-solid fa-envelope"></i></a>
-            <h2>
-                <img src="images/Audrey Mabry Resume.png">
-                    <i class="fa-solid fa-file"></i></h2>
+            <h1>Let's join forces</h1>
+            <div class="row form-grid">
+            <form action="/submit">
+                <div class="col-sm-6 col-md-3">
+                    <label for="name">Name: </label>
+                        <input type="text" placeholder="Your name" name="name" id="name" required />
+                    <label for="email">Email: </label>
+                        <input type="email" placeholder="Your email" name="email" id="email" required />
+                </div>
+                <div class="col-sm-6 col-md-3">
+                <textarea id="text-area" name="text-area" rows="4" cols="100"> 
+                </textarea>
+            <br>
+                <input type="submit" value="Contact Me" />
+                </div>
+            </form>
+            </div>
+                <h2>Email: audrey.mabry90@gmail.com  
+                    <a href="mailto:audrey.mabry90@gmail.com">
+                        <i class="fa-solid fa-envelope"></i></a>
                 </h2>
-                </a>
+                <img src="images/Audrey Mabry Resume.png">
+                    <i class="fa-solid fa-file"></i>
+                </a> 
             <h3>Find me on</h3>
             <div class="icons">
                 <a href="https://github.com/aamabry" target="_blank"><i class="fa-brands fa-github"></i></a>

@@ -2,12 +2,14 @@ body {
     font-family: "Quicksand", sans-serif;
     background: url(images/background.png) no-repeat center center / cover fixed;
     font-family: "Audiowide", sans-serif;
+    margin: 5px;
+    padding: 5px;
 }
 
 .nav-links {
     text-align: end;
      word-spacing: 20px;
-     margin-block-start: 5px;
+     letter-spacing: 2px;
 }
 
 .nav-links a {
@@ -26,7 +28,7 @@ main {
 }
 
 main h1 {
-    margin-block-start: 240px;
+    margin-block-start: 210px;
     font-size: 110px;
     text-align: center;
     letter-spacing: 20px;
@@ -51,8 +53,9 @@ main h3 {
 }
 
 .Portfolio h1{
-    font-size: 50px;
-    letter-spacing: 2px; 
+    color: rgb(0, 0, 0, 0.7);
+   font-size: 50x;
+   letter-spacing: 3px; 
     
 }
 
@@ -110,44 +113,68 @@ main h3 {
   text-decoration: none;
   color: inherit;}
 
-
 .bio-container {
- 
+    margin: 20px 0 -50px 0;
 }
 
 .bio-container img{
-  inline-size: 100%;
+margin: 30px 0 0 50px;
   border-radius: 12px;
+  width: 400px;
 }
 
 .bio-header h1{
+    color: rgb(0, 0, 0, 0.7);
+   font-size: 50px;
+   letter-spacing: 3px; 
+   margin: 10px 0 20px 35px;
+}
+
+.bio-container p {
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 17px;
+    background: rgb(193, 95, 29, .4);
+    border-radius: 12px;
+    padding: 10px;
+    margin: 30px 80px 0 20px;
+}
+
+
+
+.contact h1 {
     color: rgb(0, 0, 0, 0.7);
    font-size: 50x;
    letter-spacing: 2px; 
 }
 
-.bio-container p {
-color: rgb(0, 0, 0);
-   font-size: 20px;
-}
-
-
-
-.contact {
-   
-}
-
-.contact h1 {
-    font-size: 50px;
-    letter-spacing: 2px; 
-}
-
 .contact h2 {
     font-size: 20px;
+
 }
 
-.contact a{
-    color: #0f350b;
+.contact form {
+    font-size: 14px;
+}
+
+.contact form input{
+background-color:  rgb(255, 255, 255, .3);
+margin: 10px;
+border: 2px solid(rgb(0,0,0,0.1));
+border-radius: 12px;
+width: 200px;
+
+}
+
+.contact form textarea{
+    background-color: rgb(255, 255, 255, .3);
+    border-radius: 3px;
+    width: 534px;
+    height: 300px;
+}
+
+.contact img{
+    width: 534px;
+    border-radius: 12px;
 }
 
 .icons {
