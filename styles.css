@@ -153,11 +153,13 @@ margin: 30px 0 0 50px;
 
 .contact form {
     font-size: 14px;
+    margin: 10px 0 0 50px;
+    padding: 0;
 }
 
 .contact form input{
 background-color:  rgb(255, 255, 255, .3);
-margin: 10px;
+margin-bottom: 10px;
 border: 2px solid(rgb(0,0,0,0.1));
 border-radius: 12px;
 width: 200px;
@@ -166,14 +168,17 @@ width: 200px;
 .contact form textarea{
     background-color: rgb(255, 255, 255, .3);
     border-radius: 3px;
-    width: 534px;
-    height: 300px;
+    width: 530px;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 0;
 }
 
 .contact img{
-    margin: -40px 0 -50px 10px;
-    width: 450px;
-    border-radius: 12px;
+    margin: 10px 0 0 80px;
+    width: 400px;
+    border-radius: 3px;
+    padding: 0;
 }
 
 .icons {
